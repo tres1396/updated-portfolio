@@ -101,10 +101,15 @@ html {
     margin-left: 5px;
 }
 
+#resume-link{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 #resume-link a {
     font-family: Light;
     font-size: 30px; 
-    color:white;
+    color: rgb(0,255,255);
 }
 
 #contact-header {
