@@ -1,0 +1,128 @@
+@font-face { 
+    font-family: Medium; src: url("./assets/ApexMk3_2FreeWeights/Apex\ Mk3-Medium.otf") 
+}
+
+@font-face {
+    font-family: Light; src: url("./assets/ApexMk3_2FreeWeights/Apex\ Mk3-ExtraLight.otf")
+}
+
+html {
+    background-color: rgb(2,66,226);
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgb(2,66,226)
+}
+
+.navbar-item {
+    color:white;
+    font-family: Light;
+}
+
+.button.is-primary {
+    background-color: white;
+    color: rgb(2,66,226)
+}
+
+.button.is-light {
+    background-color: rgb(2,66,226);
+    color: white;
+}
+
+.button {
+    width: 40px;
+}
+
+.name-text {
+    color: rgb(0,23,67);
+    font-size: 7em;
+    font-family: Medium, sans-serif;
+    margin-left: 150px;
+}
+
+.webdev-text {
+    color: rgb(0,23,67);
+    font-size: 6em;
+    margin-left: 400px;
+    font-family: Medium, sans-serif;
+}
+
+.fas.fa-arrow-down{
+    color: rgb(0,255,255);
+    margin-left: 50%;
+    font-size:50px;
+    margin-top: 165px;
+}
+
+#navbarBasicExample{
+    margin-left: 37%;
+}
+
+#about-me-header {
+    font-family: Light;
+    color:white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#about-me-text {
+    font-family: Light;
+    color:white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#projects-header{
+    font-family: Light;
+    color:white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.projects-text {
+    color: white;
+    font-family: Light;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.projects-content {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#contact-header {
+    color: white;
+    margin-left: 5px;
+    font-family: Light;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    width: 300px;
+}
+
+#contacts-container {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    font-family: Light;
+    font-size: 25px;
+}
+
+#contact-info ul {
+    display: inline;
+    color: white;
+}
+
+.context-text{
+    margin-left: 20px;
+}
